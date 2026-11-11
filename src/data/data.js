@@ -1,0 +1,5 @@
+export const COLORS=[['Whites','Warm White','#F7F3EA'],['Whites','Ivory','#EFE8D4'],['Neutrals','Sand','#D9C7A7'],['Neutrals','Stone','#B8B0A2'],['Greys','Ash Grey','#9EA1A2'],['Greys','Slate','#5E6669'],['Beiges','Latte','#C9B196'],['Beiges','Oatmeal','#DDD0BC'],['Browns','Mocha','#6F4E3B'],['Browns','Walnut','#4B3427'],['Greens','Sage','#A7B59E'],['Greens','Olive','#7A7F4A'],['Greens','Forest','#2F4A3A'],['Blues','Sky Blue','#A9C7DE'],['Blues','Navy','#1F2F4D'],['Terracotta','Terracotta','#C4684A'],['Terracotta','Clay','#B07D62'],['Dark','Charcoal','#2E2F31'],['Dark','Ink','#15181C'],['Accent','Mustard','#D4A23A'],['Accent','Dusty Rose','#D4A5A0'],['Accent','Teal','#2C7A7B']].map(([cat,name,hex])=>({cat,name,hex}))
+export const FINISHES=['matte','satin','gloss','textured','cement','metallic']
+export const PATTERNS=['none','lines','geometric','concrete','marble','wood','floral','grid','abstract']
+export const LIGHTS=['daylight','warm evening','cool light','soft light','dramatic']
+export const DEFAULT_S={color:'#D9C7A7',colorName:'Sand',finish:'matte',pattern:'none',light:'daylight',intensity:40,opacity:85}
